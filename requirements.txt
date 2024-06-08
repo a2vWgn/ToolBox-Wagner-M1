@@ -1,0 +1,12 @@
+paramiko
+argparse
+requests
+pause
+configparser
+jinja2
+pdfkit
+python-nmap
+flake8
+black
+isort
+mypy

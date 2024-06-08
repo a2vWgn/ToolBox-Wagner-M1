@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Port Scan Report</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        color: #374151;
+      }
+      .cover-page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to right, #3b82f6, #14b8a6);
+        color: white;
+        text-align: center;
+      }
+      .cover-page img {
+        width: 128px;
+        height: 128px;
+        margin-bottom: 24px;
+      }
+      .cover-page h1 {
+        font-size: 48px;
+        margin-bottom: 24px;
+      }
+      .cover-page p {
+        font-size: 24px;
+        margin-bottom: 16px;
+      }
+      .cover-page button {
+        padding: 12px 24px;
+        background-color: white;
+        color: #3b82f6;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .cover-page button:hover {
+        background-color: #e5e7eb;
+      }
+      .report-page {
+        padding: 48px 16px;
+      }
+      .report-container {
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 32px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .report-container h2 {
+        font-size: 32px;
+        margin-bottom: 24px;
+      }
+      .report-container ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      .report-container ul li {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Cover Page -->
+    <div class="cover-page">
+      <h1>Port Scan Report</h1>
+      <p>Scan Results for <span class="font-semibold">{{ target }}</span></p>
+    </div>
+
+    <!-- Scan Results Page -->
+    <div id="report" class="report-page">
+      <div class="report-container">
+        <h1>Port Scan Results for {{ target }}</h1>
+        <table>
+          <tr>
+            <th>Port</th>
+            <th>Service Name</th>
+            <th>Service Version</th>
+          </tr>
+          {% for port_info in open_ports %}
+          <tr>
+            <td>{{ port_info.port }}</td>
+            <td>{{ port_info.service_name }}</td>
+            <td>{{ port_info.service_version }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
