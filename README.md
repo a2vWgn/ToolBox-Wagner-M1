@@ -77,17 +77,17 @@ options:
 
 ## 👨‍💻 Exemples de commandes 
 
-<B>Afficher le message d'aide :</B>
+<B>Afficher le message d'aide:</B>
 ```sh
 python main.py -h
 ```
 
-<B>Scan de Ports avec NMAP sur adresse IP unique : </B>
+<B>Scan de Ports avec NMAP sur adresse IP unique: </B>
 ```sh
 python main.py -p -i 192.168.1.1
 ```
 
-<B>Scan de Ports avec NMAP sur plage d'adresses IP : </B>
+<B>Scan de Ports avec NMAP sur plage d'adresses IP: </B>
 ```sh
 python main.py -p -i 192.168.1.1-192.168.1.254
 ```
@@ -102,3 +102,14 @@ python main.py -v -i 192.168.1.1 -u admin -pw password123
 python main.py -v -i 192.168.1.1-192.168.1.254 -u admin -pw password123
 ```
 
+<B>Scan de Vulnérabilité sur plusieurs plage d'adresses IPs en connaissance de ID/MDP: </B>
+```sh
+python main.py -v -i 192.168.1.1-192.168.1.50 -u admin -pw password123
+python main.py -v -i 192.168.2.1-192.168.2.50 -u admin -pw password123
+```
+
+<B>Scan de ports sur plusieurs plages d'IPs: </B>
+```sh
+python main.py -p -i 192.168.1.1-192.168.1.50
+python main.py -p -i 192.168.2.1-192.168.2.50
+```
