@@ -29,7 +29,6 @@ black
 isort
 mypy
 tqdm
-```
 
 ## Exigences d'installation
 
