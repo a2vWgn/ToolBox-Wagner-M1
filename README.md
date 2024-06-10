@@ -17,6 +17,8 @@
 
 <B> - Génération de rapport :</B> Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
 
+<br>
+<br>
 
 
 ## 💻 Explication du projet 
@@ -73,7 +75,8 @@ Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les inst
 python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
 ```
-
+<br>
+<br>
 
 ## 📋 Utilisation
 
@@ -92,7 +95,8 @@ options:
   -pw PASSWORD, --password PASSWORD
                         Le mot de passe à utiliser pour l'analyse de vulnérabilité.
 ```
-
+<br>
+<br>
 
 
 ## 👨‍💻 Exemples de commandes 
