@@ -6,7 +6,7 @@
 > ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnel.
 
 
-## Fonctionnalité 
+## ![logo](https://cdn-icons-png.flaticon.com/512/6213/6213787.png) Fonctionnalité 
  - Découverte Réseau : Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
  - Scan de port : Permet d'analyser les ports ouverts sur une cible spécifique afin de déterminer les points d'accès potentiels.
  - Détection de vulnérabilités : Identification des failles de sécurité pour anticiper et corriger les potentielles failles dans le système.
@@ -15,7 +15,7 @@
 
 
 
-## Exigences d'installation
+## 🔧 Prérequis d'installation
 
 Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire (requierements.txt) plus simplement  :
 
