@@ -75,8 +75,6 @@ python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
 ```
 <br>
-<br>
-
 ## 📋 Utilisation
 
 ```sh
