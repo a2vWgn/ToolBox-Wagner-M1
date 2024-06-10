@@ -6,7 +6,7 @@
 > ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnel.
 ## Exigences
 
-Certaines outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire plus simplement (Nathan tu peux dire Merci Arthur) :
+Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire plus simplement :
 
 ```sh
 python -m pip install -r requirements.txt
