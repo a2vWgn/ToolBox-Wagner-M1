@@ -6,6 +6,7 @@ import sys
 import config_parser.parser as ConfigParser
 import ports_scanner.ports as NetworkScanner
 from scan.scan import Scan
+from ssh.ssh import SSHConnection
 
 
 def print_ascii_art():
@@ -106,6 +107,11 @@ def main():
         port_scan.export_scan(
             f"results/{args.ip}-{datetime.datetime.now().strftime('%Y.%m.%d')}/port_scan.pdf"
         )
+
+    elif args.ssh:
+        print("[+] SSH bruteforce selected.")
+        ssh = SSHConnection(args.ip)
+        ssh.bruteforce()
 
 
 if __name__ == "__main__":
