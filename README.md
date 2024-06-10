@@ -7,34 +7,34 @@
 
 
 ## 📟 Fonctionnalité 
- - Découverte Réseau : Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
- - Scan de port : Permet d'analyser les ports ouverts sur une cible spécifique afin de déterminer les points d'accès potentiels.
- - Détection de vulnérabilités : Identification des failles de sécurité pour anticiper et corriger les potentielles failles dans le système.
- - Tentative de connexion SSH : Utilisation de la liste d’ID/mot de passe rockyou pour effectuer des attaques par force brute sur les connexions SSH.
- - Génération de rapport : Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
+<B> - Découverte Réseau :</B> Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
+<B> - Scan de port :</B> Permet d'analyser les ports ouverts sur une cible spécifique afin de déterminer les points d'accès potentiels.
+<B> - Détection de vulnérabilités :</B> Identification des failles de sécurité pour anticiper et corriger les potentielles failles dans le système.
+<B> - Tentative de connexion SSH :</B> Utilisation de la liste d’ID/mot de passe rockyou pour effectuer des attaques par force brute sur les connexions SSH.
+<B> - Génération de rapport :</B> Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
 
 
 
 ## 💻 Explication du projet 
-- config_parser : Permet de récupérer les paramètres du fichier SCANPI.conf (config du scan nessus et ports)
+<B> - config_parser :</B> Permet de récupérer les paramètres du fichier SCANPI.conf (config du scan nessus et ports)
 
-- nessus_api : Contient toutes les fonctions permettant de lancer un scan, et interagit spécifiquement avec NESSUS web (requête web)
+<B> - nessus_api :</B> Contient toutes les fonctions permettant de lancer un scan, et interagit spécifiquement avec NESSUS web (requête web)
 
-- scan : Toute les fonctions permettant de lancer le scan NESSUS
+<B> - scan :</B> Toute les fonctions permettant de lancer le scan NESSUS
 
-- github/workflow : Analyse statique et stylistique (avoir un code claire et lisible) des codes
+<B> - github/workflow :</B> Analyse statique et stylistique (avoir un code claire et lisible) des codes
 
-- port_scanner : Script de scan de port
+<B> - port_scanner :</B> Script de scan de port
 
-- template : Template du rapport de scan
+<B> - template :</B> Template du rapport de scan
 
-- .gitignore : Fichier temporaire (on s'en fiche)
+<B> - .gitignore :</B> Fichier temporaire (on s'en fiche)
 
-- main.py : Premier fichier permettant de tout charger avec les différentes options
+<B> - main.py :</B> Premier fichier permettant de tout charger avec les différentes options
 
-- requierement.py : Liste des outils à installer au préalable pour faire marcher la ToolBox
+<B> - requierement.py :</B> Liste des outils à installer au préalable pour faire marcher la ToolBox
 
-- scanpy.conf : Configuration des différents types de scans réseau et de vulnérabilités
+<B> - scanpy.conf :</B> Configuration des différents types de scans réseau et de vulnérabilités
             
 
 
