@@ -75,4 +75,30 @@ options:
 
 
 
+## 👨‍💻 Exemples de commandes 
+
+<B>Afficher le message d'aide :</B>
+```sh
+python main.py -h
+```
+
+<B>Scan de Ports avec NMAP sur adresse IP unique : </B>
+```sh
+python main.py -p -i 192.168.1.1
+```
+
+<B>Scan de Ports avec NMAP sur plage d'adresses IP : </B>
+```sh
+python main.py -p -i 192.168.1.1-192.168.1.254
+```
+
+<B>Scan de Vulnérabilité avec Nessus sur adresse IP unique en connaissance de ID/MDP: </B>
+```sh
+python main.py -v -i 192.168.1.1 -u admin -pw password123
+```
+
+<B>Scan de Vulnérabilité avec Nessus sur plage d'adresses IP en connaissance de ID/MDP: </B>
+```sh
+python main.py -v -i 192.168.1.1-192.168.1.254 -u admin -pw password123
+```
 
