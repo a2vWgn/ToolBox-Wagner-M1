@@ -4,7 +4,34 @@
 </p>
 
 > ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnel.
-## Exigences
+
+
+## Fonctionnalité 
+ - Découverte Réseau : Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
+ - Scan de port : Permet d'analyser les ports ouverts sur une cible spécifique afin de déterminer les points d'accès potentiels.
+ - Détection de vulnérabilités : Identification des failles de sécurité pour anticiper et corriger les potentielles failles dans le système.
+ - Tentative de connexion SSH : Utilisation de la liste d’ID/mot de passe rockyou pour effectuer des attaques par force brute sur les connexions SSH.
+ - Génération de rapport : Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
+
+
+## Prérequis 
+
+paramiko
+argparse
+requests
+pause
+configparser
+jinja2
+pdfkit
+python-nmap
+flake8
+black
+isort
+mypy
+tqdm
+```
+
+## Exigences d'installation
 
 Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire plus simplement :
 
@@ -30,4 +57,7 @@ options:
   -pw PASSWORD, --password PASSWORD
                         Le mot de passe à utiliser pour l'analyse de vulnérabilité.
 ```
+
+
+
 
