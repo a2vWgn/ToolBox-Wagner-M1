@@ -14,25 +14,10 @@
  - Génération de rapport : Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
 
 
-## Prérequis 
-
-paramiko
-argparse
-requests
-pause
-configparser
-jinja2
-pdfkit
-python-nmap
-flake8
-black
-isort
-mypy
-tqdm
 
 ## Exigences d'installation
 
-Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire plus simplement :
+Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire (requierements.txt) plus simplement  :
 
 ```sh
 python -m pip install -r requirements.txt
