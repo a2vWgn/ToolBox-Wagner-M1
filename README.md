@@ -15,6 +15,31 @@
 
 
 
+## 💻 Explication du projet 
+- config_parser : Permet de récupérer les paramètres du fichier SCANPI.conf (config du scan nessus et ports)
+
+- nessus_api : Contient toutes les fonctions permettant de lancer un scan, et interagit spécifiquement avec NESSUS web (requête web)
+
+- scan : Toute les fonctions permettant de lancer le scan NESSUS
+
+- github/workflow : Analyse statique et stylistique (avoir un code claire et lisible) des codes
+
+- port_scanner : Script de scan de port
+
+- template : Template du rapport de scan
+
+- .gitignore : Fichier temporaire (on s'en fiche)
+
+- main.py : Premier fichier permettant de tout charger avec les différentes options
+
+- requierement.py : Liste des outils à installer au préalable pour faire marcher la ToolBox
+
+- scanpy.conf : Configuration des différents types de scans réseau et de vulnérabilités
+            
+
+
+
+
 ## ⚒️ Prérequis d'installation
 
 Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire (requierements.txt) plus simplement  :
