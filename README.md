@@ -20,7 +20,7 @@
 
 
 ## 💻 Explication du projet 
-<B> - config_parser :</B> Permet de récupérer les paramètres du fichier SCANPI.conf (config du scan nessus et ports)
+<B> - config_parser :</B> Permet de récupérer les paramètres du fichier scanpy.conf (configuration du scan nessus et ports)
 
 <B> - nessus_api :</B> Contient toutes les fonctions permettant de lancer un scan, et interagit spécifiquement avec NESSUS web (requête web)
 
