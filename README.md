@@ -20,29 +20,40 @@
 
 
 ## 💻 Explication du projet 
-<B> - config_parser :</B> Permet de récupérer les paramètres du fichier scanpy.conf (configuration du scan nessus et ports)
 
-<B> - nessus_api :</B> Contient toutes les fonctions permettant de lancer un scan, et interagit spécifiquement avec NESSUS web (requête web)
+<B> - main.py :</B> Point d'entrée qui lit la configuration, définit les arguments et lance les scans de ports, vulnérabilités ou attaques SSH.
 
-<B> - scan :</B> Toute les fonctions permettant de lancer le scan NESSUS
+<b> - scanpy.conf :</b>Fichier de configuration contenant les paramètres par défaut pour les scans de ports et de vulnérabilités. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ici les ID/MDP pour accèder à la console Nessus Web sont vierges. On peut donc choisir les identifiants à notre convenance 😊
 
-<B> - github/workflow :</B> Analyse statique et stylistique (avoir un code claire et lisible) des codes
+<B> - scan.py :</B> Gère les interactions avec l'API Nessus pour initialiser, lancer, mettre en pause, reprendre, arrêter les scans et exporter les résultats.
 
-<B> - port_scanner :</B> Script de scan de port
+<B> - ports.py :</B> scan.py : Utilise nmap pour scanner les ports, récupère les informations sur les services et exporte les résultats en PDF.
 
-<B> - template :</B> Template du rapport de scan
+<B> - nessus_api.py :</B>  Gère l'authentification et les interactions avec l'API Nessus, y compris la création, le lancement et l'exportation des résultats des scans via des requêtes web
 
-<B> - .gitignore :</B> Fichier temporaire (on s'en fiche)
+<B> - parser.py :</B> Wrapper autour de configparser pour lire les valeurs des paramètres du fichier de configuration.
 
-<B> - main.py :</B> Premier fichier permettant de tout charger avec les différentes options
+<B> - ssh.py :</B> Effectue des attaques par force brute SSH en utilisant paramiko et la liste de mots de passe rockyou.txt.
 
 <B> - requierement.py :</B> Liste des outils à installer au préalable pour faire marcher la ToolBox
 
-<b> - scanpy.conf :</b> Configuration des différents types de scans réseau et de vulnérabilités. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ici les ID/MDP pour accèder à la console Nessus Web sont vierges. Vous pouvez les remplir à votre convenance.
-            
+<B> - template :</B> Template du rapport de scan pdf
 
+<B> - .gitignore :</B> Fichier temporaire (on s'en fiche)
 
+<B> - github/workflow :</B> Analyse statique et stylistique (avoir un code claire et lisible) des codes avec pylint, flake8, black, isort, et mypy.
+
+<br>
+<br>
+<br>
+
+<B>1. Initialisation et arguments :</B> main.py initialise le processus en fonction des arguments fournis.
+<B>2. Configuration :</B> main.py lit les paramètres de scanpy.conf en utilisant parser.py.
+<B>3. Scan de ports :</B> main.py utilise ports.py pour effectuer le scan et exporter les résultats.
+<B>4. Scan de vulnérabilités :</B> main.py utilise scan.py pour interagir avec l'API Nessus via nessus_api.py.
+<B>5. Bruteforce SSH :</B> main.py utilise ssh.py pour tenter les connexions avec paramiko.
+<B>6. Gestion des résultats :</B> Les résultats sont sauvegardés et exportés en PDF ou autres formats.
 
 
 ## ⚒️ Prérequis d'installation
