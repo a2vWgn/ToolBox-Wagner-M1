@@ -39,6 +39,7 @@
 <B> - requierement.py :</B> Liste des outils à installer au préalable pour faire marcher la ToolBox
 
 <B> - scanpy.conf :</B> Configuration des différents types de scans réseau et de vulnérabilités
+                    Ici les ID/MDP pour accèder à la console Nessus Web sont vierge. Vous pouvez les remplir à votre convenance
             
 
 
