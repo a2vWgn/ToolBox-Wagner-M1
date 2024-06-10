@@ -49,10 +49,15 @@
 <br>
 
 <B>1. Initialisation et arguments :</B> main.py initialise le processus en fonction des arguments fournis.
+
 <B>2. Configuration :</B> main.py lit les paramètres de scanpy.conf en utilisant parser.py.
+
 <B>3. Scan de ports :</B> main.py utilise ports.py pour effectuer le scan et exporter les résultats.
+
 <B>4. Scan de vulnérabilités :</B> main.py utilise scan.py pour interagir avec l'API Nessus via nessus_api.py.
+
 <B>5. Bruteforce SSH :</B> main.py utilise ssh.py pour tenter les connexions avec paramiko.
+
 <B>6. Gestion des résultats :</B> Les résultats sont sauvegardés et exportés en PDF ou autres formats.
 
 
