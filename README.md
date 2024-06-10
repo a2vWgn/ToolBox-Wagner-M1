@@ -18,7 +18,6 @@
 <B> - Génération de rapport :</B> Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion de la vulnérabilité pour ensuite générer des rapports .PDF.
 
 <br>
-<br>
 
 
 ## 💻 Explication du projet 
@@ -63,7 +62,6 @@
 <B>6. Gestion des résultats :</B> Les résultats sont sauvegardés et exportés en PDF ou autres formats.
 
 <br>
-<br>
 
 
 
@@ -96,7 +94,6 @@ options:
   -pw PASSWORD, --password PASSWORD
                         Le mot de passe à utiliser pour l'analyse de vulnérabilité.
 ```
-<br>
 <br>
 
 
