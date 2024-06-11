@@ -29,11 +29,11 @@
 
 <B> - scan.py :</B> Gère les interactions avec l'API Nessus pour initialiser, lancer, mettre en pause, reprendre, arrêter les scans et exporter les résultats.
 
-<B> - ports.py :</B> scan.py : Utilise nmap pour scanner les ports, récupère les informations sur les services et exporte les résultats en PDF.
+<B> - ports.py :</B> Utilise nmap pour scanner les ports, récupère les informations sur les services et exporte les résultats en PDF.
 
 <B> - nessus_api.py :</B>  Gère l'authentification et les interactions avec l'API Nessus, y compris la création, le lancement et l'exportation des résultats des scans via des requêtes web
 
-<B> - parser.py :</B> Wrapper autour de configparser pour lire les valeurs des paramètres du fichier de configuration.
+<B> - parser.py :</B> Interface simplifiée autour de configparser pour lire les valeurs des paramètres du fichier de configuration.
 
 <B> - ssh.py :</B> Effectue des attaques par force brute SSH en utilisant paramiko et la liste de mots de passe rockyou.txt.
 
