@@ -61,7 +61,7 @@
 
 <B>5. Bruteforce SSH :</B> main.py utilise ssh.py pour tenter les connexions avec paramiko.
 
-<B>6. Gestion des résultats :</B> Les résultats sont sauvegardés et exportés en PDF ou autres formats.
+<B>6. Gestion des résultats :</B> Les résultats sont sauvegardés et exportés en PDF dans le dossier <B>results</B>.
 
 <br>
 
@@ -77,60 +77,17 @@ python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
 ```
 <br>
-## 📋 Utilisation
+
+
+
+## 📋 Comment ça marche ?
+
+Une fois l'entité du projet installé, il faudra se rendre dans le répertoire en question. Une fois dedans :
 
 ```sh
-Utilisation: main.py [-h] [-v] [-p] [-i IP] [-u USERNAME] [-pw PASSWORD]
-
-Sélectionner nmap ou nessus en fonction de l'option sélectionné.
-
-options:
-  -h, --help            Afficher ce message d'aide et quitter
-  -v, --vuln_scan       Effectuer une analyse de vulnérabilité à l'aide de Nessus
-  -p, --port_scan       Effectuez un balayage des ports à l'aide de nmap.
-  -i IP, --ip IP        L'adresse IP à analyser.
-  -u USERNAME, --username USERNAME
-                        Le nom d'utilisateur à utiliser pour l'analyse de vulnérabilité.
-  -pw PASSWORD, --password PASSWORD
-                        Le mot de passe à utiliser pour l'analyse de vulnérabilité.
+python main.py
 ```
 <br>
-
-
-## 👨‍💻 Exemples de commandes 
-
-<B>Afficher le message d'aide:</B>
-```sh
-python main.py -h
-```
-
-<B>Scan de Ports avec NMAP sur adresse IP unique: </B>
-```sh
-python main.py -p -i 192.168.1.1
-```
-
-<B>Scan de Ports avec NMAP sur plage d'adresses IP: </B>
-```sh
-python main.py -p -i 192.168.1.1-192.168.1.254
-```
-
-<B>Scan de Vulnérabilité avec Nessus sur adresse IP unique en connaissance de ID/MDP: </B>
-```sh
-python main.py -v -i 192.168.1.1 -u admin -pw password123
-```
-
-<B>Scan de Vulnérabilité avec Nessus sur plage d'adresses IP en connaissance de ID/MDP: </B>
-```sh
-python main.py -v -i 192.168.1.1-192.168.1.254 -u admin -pw password123
-```
-
-<B>Scan de Vulnérabilité sur plusieurs plage d'adresses IPs en connaissance de ID/MDP: </B>
-```sh
-python main.py -v -i 192.168.1.1-192.168.1.50 -u admin -pw password123
-python main.py -v -i 192.168.2.1-192.168.2.50 -u admin -pw password123
-```
-
-<B>Scan de ports sur plusieurs plages d'IPs: </B>
-```sh
-python main.py -p -i 192.168.1.1-192.168.1.50
-python main.py -p -i 192.168.2.1-192.168.2.50
+Maintenant, nous n'avons plus qu'à selectionner la fonctionnalité que nous souhaitons exécuter !
+<br>
+!(template/interface.png)
