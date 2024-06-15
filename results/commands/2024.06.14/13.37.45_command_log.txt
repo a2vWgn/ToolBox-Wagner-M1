@@ -1,0 +1,1 @@
+2024-06-14 13:37:45 - b'sudo apt update\nsu root\nsudo usermod -aG sudo toolbox\nsu\nsu -\nsudo apt update\nnetstat \nsudo apt install netstat\nss\nip a\npasswd\npasswd root\nsudo passwd root\nsudo apt update\nsu -\ncd /etc/ssh/\nls\nvim sshd_config\nsudo apt install vim\nsudo vim sshd_config\nsudo systemctl restart sshd\nsudo passwd root\nip a\n'

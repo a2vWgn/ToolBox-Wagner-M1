@@ -1,0 +1,782 @@
+2024-06-14 13:32:54 - sudo apt update
+
+2024-06-14 13:32:54 - su root
+
+2024-06-14 13:32:54 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:54 - su
+
+2024-06-14 13:32:54 - su -
+
+2024-06-14 13:32:54 - sudo apt update
+
+2024-06-14 13:32:54 - netstat 
+
+2024-06-14 13:32:54 - sudo apt install netstat
+
+2024-06-14 13:32:54 - ss
+
+2024-06-14 13:32:54 - ip a
+
+2024-06-14 13:32:54 - passwd
+
+2024-06-14 13:32:54 - passwd root
+
+2024-06-14 13:32:54 - sudo passwd root
+
+2024-06-14 13:32:54 - sudo apt update
+
+2024-06-14 13:32:54 - su -
+
+2024-06-14 13:32:54 - cd /etc/ssh/
+
+2024-06-14 13:32:54 - ls
+
+2024-06-14 13:32:54 - vim sshd_config
+
+2024-06-14 13:32:54 - sudo apt install vim
+
+2024-06-14 13:32:54 - sudo vim sshd_config
+
+2024-06-14 13:32:54 - sudo systemctl restart sshd
+
+2024-06-14 13:32:54 - sudo passwd root
+
+2024-06-14 13:32:54 - ip a
+
+2024-06-14 13:32:55 - sudo apt update
+
+2024-06-14 13:32:55 - su root
+
+2024-06-14 13:32:55 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:55 - su
+
+2024-06-14 13:32:55 - su -
+
+2024-06-14 13:32:55 - sudo apt update
+
+2024-06-14 13:32:55 - netstat 
+
+2024-06-14 13:32:55 - sudo apt install netstat
+
+2024-06-14 13:32:55 - ss
+
+2024-06-14 13:32:55 - ip a
+
+2024-06-14 13:32:55 - passwd
+
+2024-06-14 13:32:55 - passwd root
+
+2024-06-14 13:32:55 - sudo passwd root
+
+2024-06-14 13:32:55 - sudo apt update
+
+2024-06-14 13:32:55 - su -
+
+2024-06-14 13:32:55 - cd /etc/ssh/
+
+2024-06-14 13:32:55 - ls
+
+2024-06-14 13:32:55 - vim sshd_config
+
+2024-06-14 13:32:55 - sudo apt install vim
+
+2024-06-14 13:32:55 - sudo vim sshd_config
+
+2024-06-14 13:32:55 - sudo systemctl restart sshd
+
+2024-06-14 13:32:55 - sudo passwd root
+
+2024-06-14 13:32:55 - ip a
+
+2024-06-14 13:32:56 - sudo apt update
+
+2024-06-14 13:32:56 - su root
+
+2024-06-14 13:32:56 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:56 - su
+
+2024-06-14 13:32:56 - su -
+
+2024-06-14 13:32:56 - sudo apt update
+
+2024-06-14 13:32:56 - netstat 
+
+2024-06-14 13:32:56 - sudo apt install netstat
+
+2024-06-14 13:32:56 - ss
+
+2024-06-14 13:32:56 - ip a
+
+2024-06-14 13:32:56 - passwd
+
+2024-06-14 13:32:56 - passwd root
+
+2024-06-14 13:32:56 - sudo passwd root
+
+2024-06-14 13:32:56 - sudo apt update
+
+2024-06-14 13:32:56 - su -
+
+2024-06-14 13:32:56 - cd /etc/ssh/
+
+2024-06-14 13:32:56 - ls
+
+2024-06-14 13:32:56 - vim sshd_config
+
+2024-06-14 13:32:56 - sudo apt install vim
+
+2024-06-14 13:32:56 - sudo vim sshd_config
+
+2024-06-14 13:32:56 - sudo systemctl restart sshd
+
+2024-06-14 13:32:56 - sudo passwd root
+
+2024-06-14 13:32:56 - ip a
+
+2024-06-14 13:32:57 - sudo apt update
+
+2024-06-14 13:32:57 - su root
+
+2024-06-14 13:32:57 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:57 - su
+
+2024-06-14 13:32:57 - su -
+
+2024-06-14 13:32:57 - sudo apt update
+
+2024-06-14 13:32:57 - netstat 
+
+2024-06-14 13:32:57 - sudo apt install netstat
+
+2024-06-14 13:32:57 - ss
+
+2024-06-14 13:32:57 - ip a
+
+2024-06-14 13:32:57 - passwd
+
+2024-06-14 13:32:57 - passwd root
+
+2024-06-14 13:32:57 - sudo passwd root
+
+2024-06-14 13:32:57 - sudo apt update
+
+2024-06-14 13:32:57 - su -
+
+2024-06-14 13:32:57 - cd /etc/ssh/
+
+2024-06-14 13:32:57 - ls
+
+2024-06-14 13:32:57 - vim sshd_config
+
+2024-06-14 13:32:57 - sudo apt install vim
+
+2024-06-14 13:32:57 - sudo vim sshd_config
+
+2024-06-14 13:32:57 - sudo systemctl restart sshd
+
+2024-06-14 13:32:57 - sudo passwd root
+
+2024-06-14 13:32:57 - ip a
+
+2024-06-14 13:32:58 - sudo apt update
+
+2024-06-14 13:32:58 - su root
+
+2024-06-14 13:32:58 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:58 - su
+
+2024-06-14 13:32:58 - su -
+
+2024-06-14 13:32:58 - sudo apt update
+
+2024-06-14 13:32:58 - netstat 
+
+2024-06-14 13:32:58 - sudo apt install netstat
+
+2024-06-14 13:32:58 - ss
+
+2024-06-14 13:32:58 - ip a
+
+2024-06-14 13:32:58 - passwd
+
+2024-06-14 13:32:58 - passwd root
+
+2024-06-14 13:32:58 - sudo passwd root
+
+2024-06-14 13:32:58 - sudo apt update
+
+2024-06-14 13:32:58 - su -
+
+2024-06-14 13:32:58 - cd /etc/ssh/
+
+2024-06-14 13:32:58 - ls
+
+2024-06-14 13:32:58 - vim sshd_config
+
+2024-06-14 13:32:58 - sudo apt install vim
+
+2024-06-14 13:32:58 - sudo vim sshd_config
+
+2024-06-14 13:32:58 - sudo systemctl restart sshd
+
+2024-06-14 13:32:58 - sudo passwd root
+
+2024-06-14 13:32:58 - ip a
+
+2024-06-14 13:32:59 - sudo apt update
+
+2024-06-14 13:32:59 - su root
+
+2024-06-14 13:32:59 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:32:59 - su
+
+2024-06-14 13:32:59 - su -
+
+2024-06-14 13:32:59 - sudo apt update
+
+2024-06-14 13:32:59 - netstat 
+
+2024-06-14 13:32:59 - sudo apt install netstat
+
+2024-06-14 13:32:59 - ss
+
+2024-06-14 13:32:59 - ip a
+
+2024-06-14 13:32:59 - passwd
+
+2024-06-14 13:32:59 - passwd root
+
+2024-06-14 13:32:59 - sudo passwd root
+
+2024-06-14 13:32:59 - sudo apt update
+
+2024-06-14 13:32:59 - su -
+
+2024-06-14 13:32:59 - cd /etc/ssh/
+
+2024-06-14 13:32:59 - ls
+
+2024-06-14 13:32:59 - vim sshd_config
+
+2024-06-14 13:32:59 - sudo apt install vim
+
+2024-06-14 13:32:59 - sudo vim sshd_config
+
+2024-06-14 13:32:59 - sudo systemctl restart sshd
+
+2024-06-14 13:32:59 - sudo passwd root
+
+2024-06-14 13:32:59 - ip a
+
+2024-06-14 13:33:00 - sudo apt update
+
+2024-06-14 13:33:00 - su root
+
+2024-06-14 13:33:00 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:00 - su
+
+2024-06-14 13:33:00 - su -
+
+2024-06-14 13:33:00 - sudo apt update
+
+2024-06-14 13:33:00 - netstat 
+
+2024-06-14 13:33:00 - sudo apt install netstat
+
+2024-06-14 13:33:00 - ss
+
+2024-06-14 13:33:00 - ip a
+
+2024-06-14 13:33:00 - passwd
+
+2024-06-14 13:33:00 - passwd root
+
+2024-06-14 13:33:00 - sudo passwd root
+
+2024-06-14 13:33:00 - sudo apt update
+
+2024-06-14 13:33:00 - su -
+
+2024-06-14 13:33:00 - cd /etc/ssh/
+
+2024-06-14 13:33:00 - ls
+
+2024-06-14 13:33:00 - vim sshd_config
+
+2024-06-14 13:33:00 - sudo apt install vim
+
+2024-06-14 13:33:00 - sudo vim sshd_config
+
+2024-06-14 13:33:00 - sudo systemctl restart sshd
+
+2024-06-14 13:33:00 - sudo passwd root
+
+2024-06-14 13:33:00 - ip a
+
+2024-06-14 13:33:01 - sudo apt update
+
+2024-06-14 13:33:01 - su root
+
+2024-06-14 13:33:01 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:01 - su
+
+2024-06-14 13:33:01 - su -
+
+2024-06-14 13:33:01 - sudo apt update
+
+2024-06-14 13:33:01 - netstat 
+
+2024-06-14 13:33:01 - sudo apt install netstat
+
+2024-06-14 13:33:01 - ss
+
+2024-06-14 13:33:01 - ip a
+
+2024-06-14 13:33:01 - passwd
+
+2024-06-14 13:33:01 - passwd root
+
+2024-06-14 13:33:01 - sudo passwd root
+
+2024-06-14 13:33:01 - sudo apt update
+
+2024-06-14 13:33:01 - su -
+
+2024-06-14 13:33:01 - cd /etc/ssh/
+
+2024-06-14 13:33:01 - ls
+
+2024-06-14 13:33:01 - vim sshd_config
+
+2024-06-14 13:33:01 - sudo apt install vim
+
+2024-06-14 13:33:01 - sudo vim sshd_config
+
+2024-06-14 13:33:01 - sudo systemctl restart sshd
+
+2024-06-14 13:33:01 - sudo passwd root
+
+2024-06-14 13:33:01 - ip a
+
+2024-06-14 13:33:02 - sudo apt update
+
+2024-06-14 13:33:02 - su root
+
+2024-06-14 13:33:02 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:02 - su
+
+2024-06-14 13:33:02 - su -
+
+2024-06-14 13:33:02 - sudo apt update
+
+2024-06-14 13:33:02 - netstat 
+
+2024-06-14 13:33:02 - sudo apt install netstat
+
+2024-06-14 13:33:02 - ss
+
+2024-06-14 13:33:02 - ip a
+
+2024-06-14 13:33:02 - passwd
+
+2024-06-14 13:33:02 - passwd root
+
+2024-06-14 13:33:02 - sudo passwd root
+
+2024-06-14 13:33:02 - sudo apt update
+
+2024-06-14 13:33:02 - su -
+
+2024-06-14 13:33:02 - cd /etc/ssh/
+
+2024-06-14 13:33:02 - ls
+
+2024-06-14 13:33:02 - vim sshd_config
+
+2024-06-14 13:33:02 - sudo apt install vim
+
+2024-06-14 13:33:02 - sudo vim sshd_config
+
+2024-06-14 13:33:02 - sudo systemctl restart sshd
+
+2024-06-14 13:33:02 - sudo passwd root
+
+2024-06-14 13:33:02 - ip a
+
+2024-06-14 13:33:03 - sudo apt update
+
+2024-06-14 13:33:03 - su root
+
+2024-06-14 13:33:03 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:03 - su
+
+2024-06-14 13:33:03 - su -
+
+2024-06-14 13:33:03 - sudo apt update
+
+2024-06-14 13:33:03 - netstat 
+
+2024-06-14 13:33:03 - sudo apt install netstat
+
+2024-06-14 13:33:03 - ss
+
+2024-06-14 13:33:03 - ip a
+
+2024-06-14 13:33:03 - passwd
+
+2024-06-14 13:33:03 - passwd root
+
+2024-06-14 13:33:03 - sudo passwd root
+
+2024-06-14 13:33:03 - sudo apt update
+
+2024-06-14 13:33:03 - su -
+
+2024-06-14 13:33:03 - cd /etc/ssh/
+
+2024-06-14 13:33:03 - ls
+
+2024-06-14 13:33:03 - vim sshd_config
+
+2024-06-14 13:33:03 - sudo apt install vim
+
+2024-06-14 13:33:03 - sudo vim sshd_config
+
+2024-06-14 13:33:03 - sudo systemctl restart sshd
+
+2024-06-14 13:33:03 - sudo passwd root
+
+2024-06-14 13:33:03 - ip a
+
+2024-06-14 13:33:04 - sudo apt update
+
+2024-06-14 13:33:04 - su root
+
+2024-06-14 13:33:04 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:04 - su
+
+2024-06-14 13:33:04 - su -
+
+2024-06-14 13:33:04 - sudo apt update
+
+2024-06-14 13:33:04 - netstat 
+
+2024-06-14 13:33:04 - sudo apt install netstat
+
+2024-06-14 13:33:04 - ss
+
+2024-06-14 13:33:04 - ip a
+
+2024-06-14 13:33:04 - passwd
+
+2024-06-14 13:33:04 - passwd root
+
+2024-06-14 13:33:04 - sudo passwd root
+
+2024-06-14 13:33:04 - sudo apt update
+
+2024-06-14 13:33:04 - su -
+
+2024-06-14 13:33:04 - cd /etc/ssh/
+
+2024-06-14 13:33:04 - ls
+
+2024-06-14 13:33:04 - vim sshd_config
+
+2024-06-14 13:33:04 - sudo apt install vim
+
+2024-06-14 13:33:04 - sudo vim sshd_config
+
+2024-06-14 13:33:04 - sudo systemctl restart sshd
+
+2024-06-14 13:33:04 - sudo passwd root
+
+2024-06-14 13:33:04 - ip a
+
+2024-06-14 13:33:05 - sudo apt update
+
+2024-06-14 13:33:05 - su root
+
+2024-06-14 13:33:05 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:05 - su
+
+2024-06-14 13:33:05 - su -
+
+2024-06-14 13:33:05 - sudo apt update
+
+2024-06-14 13:33:05 - netstat 
+
+2024-06-14 13:33:05 - sudo apt install netstat
+
+2024-06-14 13:33:05 - ss
+
+2024-06-14 13:33:05 - ip a
+
+2024-06-14 13:33:05 - passwd
+
+2024-06-14 13:33:05 - passwd root
+
+2024-06-14 13:33:05 - sudo passwd root
+
+2024-06-14 13:33:05 - sudo apt update
+
+2024-06-14 13:33:05 - su -
+
+2024-06-14 13:33:05 - cd /etc/ssh/
+
+2024-06-14 13:33:05 - ls
+
+2024-06-14 13:33:05 - vim sshd_config
+
+2024-06-14 13:33:05 - sudo apt install vim
+
+2024-06-14 13:33:05 - sudo vim sshd_config
+
+2024-06-14 13:33:05 - sudo systemctl restart sshd
+
+2024-06-14 13:33:05 - sudo passwd root
+
+2024-06-14 13:33:05 - ip a
+
+2024-06-14 13:33:06 - sudo apt update
+
+2024-06-14 13:33:06 - su root
+
+2024-06-14 13:33:06 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:06 - su
+
+2024-06-14 13:33:06 - su -
+
+2024-06-14 13:33:06 - sudo apt update
+
+2024-06-14 13:33:06 - netstat 
+
+2024-06-14 13:33:06 - sudo apt install netstat
+
+2024-06-14 13:33:06 - ss
+
+2024-06-14 13:33:06 - ip a
+
+2024-06-14 13:33:06 - passwd
+
+2024-06-14 13:33:06 - passwd root
+
+2024-06-14 13:33:06 - sudo passwd root
+
+2024-06-14 13:33:06 - sudo apt update
+
+2024-06-14 13:33:06 - su -
+
+2024-06-14 13:33:06 - cd /etc/ssh/
+
+2024-06-14 13:33:06 - ls
+
+2024-06-14 13:33:06 - vim sshd_config
+
+2024-06-14 13:33:06 - sudo apt install vim
+
+2024-06-14 13:33:06 - sudo vim sshd_config
+
+2024-06-14 13:33:06 - sudo systemctl restart sshd
+
+2024-06-14 13:33:06 - sudo passwd root
+
+2024-06-14 13:33:06 - ip a
+
+2024-06-14 13:33:07 - sudo apt update
+
+2024-06-14 13:33:07 - su root
+
+2024-06-14 13:33:07 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:07 - su
+
+2024-06-14 13:33:07 - su -
+
+2024-06-14 13:33:07 - sudo apt update
+
+2024-06-14 13:33:07 - netstat 
+
+2024-06-14 13:33:07 - sudo apt install netstat
+
+2024-06-14 13:33:07 - ss
+
+2024-06-14 13:33:07 - ip a
+
+2024-06-14 13:33:07 - passwd
+
+2024-06-14 13:33:07 - passwd root
+
+2024-06-14 13:33:07 - sudo passwd root
+
+2024-06-14 13:33:07 - sudo apt update
+
+2024-06-14 13:33:07 - su -
+
+2024-06-14 13:33:07 - cd /etc/ssh/
+
+2024-06-14 13:33:07 - ls
+
+2024-06-14 13:33:07 - vim sshd_config
+
+2024-06-14 13:33:07 - sudo apt install vim
+
+2024-06-14 13:33:07 - sudo vim sshd_config
+
+2024-06-14 13:33:07 - sudo systemctl restart sshd
+
+2024-06-14 13:33:07 - sudo passwd root
+
+2024-06-14 13:33:07 - ip a
+
+2024-06-14 13:33:08 - sudo apt update
+
+2024-06-14 13:33:08 - su root
+
+2024-06-14 13:33:08 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:08 - su
+
+2024-06-14 13:33:08 - su -
+
+2024-06-14 13:33:08 - sudo apt update
+
+2024-06-14 13:33:08 - netstat 
+
+2024-06-14 13:33:08 - sudo apt install netstat
+
+2024-06-14 13:33:08 - ss
+
+2024-06-14 13:33:08 - ip a
+
+2024-06-14 13:33:08 - passwd
+
+2024-06-14 13:33:08 - passwd root
+
+2024-06-14 13:33:08 - sudo passwd root
+
+2024-06-14 13:33:08 - sudo apt update
+
+2024-06-14 13:33:08 - su -
+
+2024-06-14 13:33:08 - cd /etc/ssh/
+
+2024-06-14 13:33:08 - ls
+
+2024-06-14 13:33:08 - vim sshd_config
+
+2024-06-14 13:33:08 - sudo apt install vim
+
+2024-06-14 13:33:08 - sudo vim sshd_config
+
+2024-06-14 13:33:08 - sudo systemctl restart sshd
+
+2024-06-14 13:33:08 - sudo passwd root
+
+2024-06-14 13:33:08 - ip a
+
+2024-06-14 13:33:09 - sudo apt update
+
+2024-06-14 13:33:09 - su root
+
+2024-06-14 13:33:09 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:09 - su
+
+2024-06-14 13:33:09 - su -
+
+2024-06-14 13:33:09 - sudo apt update
+
+2024-06-14 13:33:09 - netstat 
+
+2024-06-14 13:33:09 - sudo apt install netstat
+
+2024-06-14 13:33:09 - ss
+
+2024-06-14 13:33:09 - ip a
+
+2024-06-14 13:33:09 - passwd
+
+2024-06-14 13:33:09 - passwd root
+
+2024-06-14 13:33:09 - sudo passwd root
+
+2024-06-14 13:33:09 - sudo apt update
+
+2024-06-14 13:33:09 - su -
+
+2024-06-14 13:33:09 - cd /etc/ssh/
+
+2024-06-14 13:33:09 - ls
+
+2024-06-14 13:33:09 - vim sshd_config
+
+2024-06-14 13:33:09 - sudo apt install vim
+
+2024-06-14 13:33:09 - sudo vim sshd_config
+
+2024-06-14 13:33:09 - sudo systemctl restart sshd
+
+2024-06-14 13:33:09 - sudo passwd root
+
+2024-06-14 13:33:09 - ip a
+
+2024-06-14 13:33:10 - sudo apt update
+
+2024-06-14 13:33:10 - su root
+
+2024-06-14 13:33:10 - sudo usermod -aG sudo toolbox
+
+2024-06-14 13:33:10 - su
+
+2024-06-14 13:33:10 - su -
+
+2024-06-14 13:33:10 - sudo apt update
+
+2024-06-14 13:33:10 - netstat 
+
+2024-06-14 13:33:10 - sudo apt install netstat
+
+2024-06-14 13:33:10 - ss
+
+2024-06-14 13:33:10 - ip a
+
+2024-06-14 13:33:10 - passwd
+
+2024-06-14 13:33:10 - passwd root
+
+2024-06-14 13:33:10 - sudo passwd root
+
+2024-06-14 13:33:10 - sudo apt update
+
+2024-06-14 13:33:10 - su -
+
+2024-06-14 13:33:10 - cd /etc/ssh/
+
+2024-06-14 13:33:10 - ls
+
+2024-06-14 13:33:10 - vim sshd_config
+
+2024-06-14 13:33:10 - sudo apt install vim
+
+2024-06-14 13:33:10 - sudo vim sshd_config
+
+2024-06-14 13:33:10 - sudo systemctl restart sshd
+
+2024-06-14 13:33:10 - sudo passwd root
+
+2024-06-14 13:33:10 - ip a
+

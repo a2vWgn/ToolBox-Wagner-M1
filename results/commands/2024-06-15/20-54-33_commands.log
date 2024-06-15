@@ -1,0 +1,123 @@
+usermod -aG toolbox
+usermod -aG sudo toolbox
+usermod
+apt update
+apt upgrade
+apt install usermod
+visudo
+apt install visudo
+usermod
+usermod -aG sudo toolbox
+reboot
+id
+ls -l /root/.bash_history 
+ls -l /home/toolbox/.bash_history 
+sudo chmod 664 /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chown toolbox:toolbox /root/.bash_history 
+sudo chown toolbox:toolbox /home/toolbox/.bash_history 
+ls -la /root/.bash_history 
+ls -la /home/toolbox/.bash_history 
+echo $HOME
+ls -la $HOME/.bash_history 
+cd ..
+sudo find / -name ".bash_history"
+sudo ls -la /home/toolbox/.bash_history
+sudo ls -la /home/test/.bash_history
+sudo ls -la /root/.bash_history
+cd /home/toolbox/
+ls
+nano .bash_history 
+ls
+ip a
+nano .bash_history 
+nano .bash_history 
+echo $HISTFILE
+echo $HISTSIZE
+nano ~/.bashrc 
+source ~/.bashrc 
+cat ~/.bash_history 
+ip a
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+cat ~/.bash_history 
+ip a
+ls
+ip a
+cat ~/.bash_history 
+ip a
+ipa
+ip a
+cat ~/.bash_history 
+cat ~/.bash_history 
+cat /home/toolbox/.bash_history 
+cat /home/test/.bash_history
+ls -l /root/.bash_history 
+sudo chmod 644 /root/.bash_history
+sudo chown toolbox:toolbox /root/.bash_history
+sudo chmod 755 /root
+ip a
+ip a
+ls
+ls
+ipaaaaaaaaaaa
+ls
+apt get update
+ls
+ls
+ls
+ip a
+ls
+mkdir .bash_history
+ls
+cd .bash_history 
+nano .bash_history 
+ls
+echo $HOME
+cd ..
+echo $HOME
+ls
+ls -la ~/.bash_history
+sudo find / -name ".bash_history
+sudo find / -name ".bash_history"
+sudo chmod 664 /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chmod 664 /root/.bash_history 
+sudo chown toolbox:toolbox /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chown 664 /home/toolbox/.bash_history 
+sudo su
+sudo journalctl -u sshd | grep "Failed password"
+sudo systemctl status sshd
+LogLevel VERBOSE
+nano /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo journalctl -u sshd | grep "Failed password"
+toolbox
+sudo journalctl -u sshd | grep "Failed password"
+sudo journalctl -u sshd 
+sudo nano /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo tail -f /var/log/auth.log
+sudo tail -f /var/log/syslog
+sudo apt update
+sudo apt install rsyslog
+sudo systemctl enable rsyslog
+sudo systemctl start rsyslog
+sudo nano /etc/rsyslog.conf 
+sudo tail -f /var/log/auth.log
+sudo tail -f /var/log/syslog
+sudo chmod 644 /var/log/auth.log
+sudo chmod 644 /var/log/syslog
+ip a
+ip a
+ipsexxxxx
