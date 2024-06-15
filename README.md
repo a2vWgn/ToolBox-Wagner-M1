@@ -90,4 +90,4 @@ python main.py
 <br>
 Maintenant, nous n'avons plus qu'à selectionner la fonctionnalité que nous souhaitons exécuter !
 <br>
-![Interface](https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true)
+<img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" </img>
