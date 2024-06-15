@@ -90,4 +90,4 @@ python main.py
 <br>
 Maintenant, nous n'avons plus qu'à selectionner la fonctionnalité que nous souhaitons exécuter !
 <br>
-![Interface](template/interface.png)
+![Interface](template/interface.PNG)
