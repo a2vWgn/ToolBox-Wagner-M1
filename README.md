@@ -84,9 +84,15 @@ sudo apt install wkhtmltopdf -y
 
 Une fois l'entité du projet installé, il faudra se rendre dans le répertoire en question. Une fois dedans :
 
+-  Nous pouvons utiliser l'interface en ligne de commande :
 ```sh
 python main.py
 ```
+-  Nous pouvons utiliser l'interface graphique :
+```sh
+python app2.py
+```
+
 <br>
 Maintenant, nous n'avons plus qu'à selectionner la fonctionnalité que nous souhaitons exécuter !
 <br>
