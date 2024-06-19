@@ -92,5 +92,6 @@ Maintenant, nous n'avons plus qu'à selectionner la fonctionnalité que nous sou
 <br>
 <br>
 
-<img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" </img>
+![image](https://github.com/a2vWgn/ToolBox-Wagner-M1/assets/165202342/57511c25-ba01-450a-bc30-d854fb24ea39)
+
 
