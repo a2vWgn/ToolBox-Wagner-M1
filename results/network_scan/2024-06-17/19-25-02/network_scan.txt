@@ -1,0 +1,7 @@
+[{'ip': '192.168.2.2', 'mac': '00:50:56:f8:44:4b', 'vendor': 'VMware, Inc.'},
+ {'ip': '192.168.2.1', 'mac': '00:50:56:c0:00:08', 'vendor': 'VMware, Inc.'},
+ {'ip': '192.168.2.136', 'mac': '00:0c:29:56:9a:c9', 'vendor': 'VMware, Inc.'},
+ {'ip': '192.168.2.254', 'mac': '00:50:56:e3:38:bd', 'vendor': 'VMware, Inc.'},
+ {'ip': '4',
+  'mac': 'packets',
+  'vendor': 'received by filter, 0 packets dropped by kernel'}]

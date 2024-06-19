@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Ajoutez l'import pour datetime
+=======
+>>>>>>> e6aaa5a (Push Projet Final)
 import datetime
 import os
 import subprocess
@@ -19,7 +22,11 @@ class Scan:
         password,
         targets_dir,
         date,
+<<<<<<< HEAD
         work_path="./",
+=======
+        work_path="/home/toolbox/ScanPy6/results",
+>>>>>>> e6aaa5a (Push Projet Final)
         scanner_url="https://localhost:8834",
         stop_file="/opt/sms/test.txt",
     ):
@@ -44,8 +51,17 @@ class Scan:
         self.list_files_to_scan = None
         self.t = None
 
+<<<<<<< HEAD
     def log(self, value):
         with open(self.work_path + "scan.log", "a") as f:
+=======
+        # Create the directory for the scan results
+        self.report_dir = os.path.join(self.work_path, "scan_vulné", datetime.datetime.now().strftime("%Y-%m-%d/%H-%M-%S"))
+        os.makedirs(self.report_dir, exist_ok=True)
+
+    def log(self, value):
+        with open(os.path.join(self.report_dir, "scan.log"), "a") as f:
+>>>>>>> e6aaa5a (Push Projet Final)
             f.write(value + "\n")
         print(value)
 
@@ -190,7 +206,11 @@ class Scan:
         if report_content is None:
             self.log("[-] Unable to generate HTML report {}.html".format(report_name))
         else:
+<<<<<<< HEAD
             with open(self.work_path + "Reports/{}.html".format(report_name), "w") as f:
+=======
+            with open(os.path.join(self.report_dir, "{}.html".format(report_name)), "w") as f:
+>>>>>>> e6aaa5a (Push Projet Final)
                 f.write(report_content)
             self.log("[+] Report {}.html generated".format(report_name))
 
@@ -200,10 +220,27 @@ class Scan:
         if report_content is None:
             self.log("[-] Unable to generate CSV report {}.csv".format(report_name))
         else:
+<<<<<<< HEAD
             with open(self.work_path + "Reports/{}.csv".format(report_name), "w") as f:
                 f.write(report_content)
             self.log("[+] Report {}.csv generated".format(report_name))
 
+=======
+            with open(os.path.join(self.report_dir, "{}.csv".format(report_name)), "w") as f:
+                f.write(report_content)
+            self.log("[+] Report {}.csv generated".format(report_name))
+
+        report_content = NessusAPI.export_pdf_scan(
+            self.url, self.api_token, self.cookie, scan_id
+        )
+        if report_content is None:
+            self.log("[-] Unable to generate PDF report {}.pdf".format(report_name))
+        else:
+            with open(os.path.join(self.report_dir, "{}.pdf".format(report_name)), "wb") as f:
+                f.write(report_content)
+            self.log("[+] Report {}.pdf generated".format(report_name))
+
+>>>>>>> e6aaa5a (Push Projet Final)
     def set_ip_range(self, file):
         with open(self.ip_dir + "/" + file, "rb") as f:
             self.log("[+] Reading file {}".format(file))
@@ -258,12 +295,16 @@ class Scan:
     def scan_job(self):
         if os.path.exists(self.stop_file):
             os.remove(self.stop_file)
+<<<<<<< HEAD
         if os.path.exists(self.work_path + "Reports/DNS.txt"):
             os.remove(self.work_path + "Reports/DNS.txt")
         if os.path.exists(self.work_path + "scan.log"):
             os.remove(self.work_path + "scan.log")
         self.t = threading.Thread(target=self.listen)
         # self.launch_nessus()
+=======
+        self.t = threading.Thread(target=self.listen)
+>>>>>>> e6aaa5a (Push Projet Final)
         self.start_nessus_session()
         time.sleep(5)
         for target_file in self.list_files_to_scan:
@@ -294,7 +335,11 @@ class Scan:
                             for note in notes["note"]:
                                 if "Can't resolve target" in note["message"]:
                                     with open(
+<<<<<<< HEAD
                                         self.work_path + "Reports/DNS.txt", "a"
+=======
+                                        os.path.join(self.report_dir, "DNS.txt"), "a"
+>>>>>>> e6aaa5a (Push Projet Final)
                                     ) as fp:
                                         fp.write(
                                             "{}   {}\n".format(

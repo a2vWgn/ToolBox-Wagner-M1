@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rapport du Scan de Ports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rapport du Scan de Ports</h1>
+    <h2>Cible: 192.168.2.136</h2>
+    <table>
+        <tr>
+            <th>Port</th>
+            <th>Nom du Service</th>
+            <th>Version du Service</th>
+        </tr>
+        
+        <tr>
+            <td>22</td>
+            <td>ssh</td>
+            <td>9.2p1 Debian 2+deb12u2</td>
+        </tr>
+        
+        <tr>
+            <td>80</td>
+            <td>http</td>
+            <td>2.4.59</td>
+        </tr>
+        
+    </table>
+</body>
+</html>

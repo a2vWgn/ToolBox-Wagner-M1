@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import os
+>>>>>>> e6aaa5a (Push Projet Final)
 import nmap
 import pdfkit
 from jinja2 import Environment, FileSystemLoader
@@ -33,6 +37,7 @@ class PortScanner:
         return self.open_ports
 
     def export_scan(self, filename):
+<<<<<<< HEAD
         env = Environment(loader=FileSystemLoader("."))
         template = env.get_template("/template/port_scan_template.html")
         html_out = template.render(target=self.target, open_ports=self.open_ports)
@@ -40,3 +45,15 @@ class PortScanner:
         # Generate the PDF
         pdfkit.from_string(html_out, filename)
         print(f"Scan results exported to {filename}")
+=======
+        env = Environment(loader=FileSystemLoader('template'))
+        template = env.get_template('port_scan_template.html')
+        html_out = template.render(target=self.target, open_ports=self.open_ports)
+
+        with open(filename + '.html', 'w') as f:
+            f.write(html_out)
+
+        pdfkit.from_file(filename + '.html', filename + '.pdf')
+
+        os.remove(filename + '.html')
+>>>>>>> e6aaa5a (Push Projet Final)

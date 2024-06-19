@@ -1,0 +1,228 @@
+usermod -aG toolbox
+usermod -aG sudo toolbox
+usermod
+apt update
+apt upgrade
+apt install usermod
+visudo
+apt install visudo
+usermod
+usermod -aG sudo toolbox
+reboot
+id
+ls -l /root/.bash_history 
+ls -l /home/toolbox/.bash_history 
+sudo chmod 664 /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chown toolbox:toolbox /root/.bash_history 
+sudo chown toolbox:toolbox /home/toolbox/.bash_history 
+ls -la /root/.bash_history 
+ls -la /home/toolbox/.bash_history 
+echo $HOME
+ls -la $HOME/.bash_history 
+cd ..
+sudo find / -name ".bash_history"
+sudo ls -la /home/toolbox/.bash_history
+sudo ls -la /home/test/.bash_history
+sudo ls -la /root/.bash_history
+cd /home/toolbox/
+ls
+nano .bash_history 
+ls
+ip a
+nano .bash_history 
+nano .bash_history 
+echo $HISTFILE
+echo $HISTSIZE
+nano ~/.bashrc 
+source ~/.bashrc 
+cat ~/.bash_history 
+ip a
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+cat ~/.bash_history 
+ip a
+ls
+ip a
+cat ~/.bash_history 
+ip a
+ipa
+ip a
+cat ~/.bash_history 
+cat ~/.bash_history 
+cat /home/toolbox/.bash_history 
+cat /home/test/.bash_history
+ls -l /root/.bash_history 
+sudo chmod 644 /root/.bash_history
+sudo chown toolbox:toolbox /root/.bash_history
+sudo chmod 755 /root
+ip a
+ip a
+ls
+ls
+ipaaaaaaaaaaa
+ls
+apt get update
+ls
+ls
+ls
+ip a
+ls
+mkdir .bash_history
+ls
+cd .bash_history 
+nano .bash_history 
+ls
+echo $HOME
+cd ..
+echo $HOME
+ls
+ls -la ~/.bash_history
+sudo find / -name ".bash_history
+sudo find / -name ".bash_history"
+sudo chmod 664 /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chmod 664 /root/.bash_history 
+sudo chown toolbox:toolbox /root/.bash_history 
+sudo chmod 664 /home/toolbox/.bash_history 
+sudo chown 664 /home/toolbox/.bash_history 
+sudo su
+sudo journalctl -u sshd | grep "Failed password"
+sudo systemctl status sshd
+LogLevel VERBOSE
+nano /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo journalctl -u sshd | grep "Failed password"
+toolbox
+sudo journalctl -u sshd | grep "Failed password"
+sudo journalctl -u sshd 
+sudo nano /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo tail -f /var/log/auth.log
+sudo tail -f /var/log/syslog
+sudo apt update
+sudo apt install rsyslog
+sudo systemctl enable rsyslog
+sudo systemctl start rsyslog
+sudo nano /etc/rsyslog.conf 
+sudo tail -f /var/log/auth.log
+sudo tail -f /var/log/syslog
+sudo chmod 644 /var/log/auth.log
+sudo chmod 644 /var/log/syslog
+ip a
+ip a
+ipsexxxxx
+sudo systemctl status sshd
+sudo passwd root
+sudo apt-get remove vsftpd -y
+wget http://security.ubuntu.com/ubuntu/pool/universe/v/vsftpd/vsftpd_2.3.4-1ubuntu2_amd64.deb
+sudo dpkg -i vsftpd_2.3.4-1ubuntu2_amd64.deb
+sudo apt-get remove vsftpd -y
+wget http://security.ubuntu.com/ubuntu/pool/universe/v/vsftpd/vsftpd_2.3.4-1ubuntu2_amd64.deb
+sudo apt-get update
+sudo apt-get install proftpd -y
+sudo nano /etc/proftpd/proftpd.conf 
+sudo systemctl restart proftpd
+sudo touch /etc/shadow_backup
+sudo cp /etc/shadow /etc/shadow_backup
+sudo chmod 777 /etc/shadow_backup 
+sudo touch /usr/local/bin/vulnerable_script.sh
+echo -e '#!/bin/bash\n\n echo "This is a vulnerable script"' | sudo tee /usr/local/bin/vulnerable_script.sh
+sudo chmod 777 /usr/local/bin/vulnerable_script.sh
+ls -l /etc/shadow_backup
+ls -l /usr/local/bin/vulnerable_script.sh
+sudo apt-get remove php -y
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+sudo add-apt-repository ppa:ondrej/php
+sudo apt-get install wget
+wget http://archive.ubuntu.com/ubuntu/pool/universe/p/php5.6/php5.6-common_5.6.40-37+deb.sury.org~xenial+1_amd64.deb
+sudo apt-get install -y nodejs npm
+sudo npm install -g juice-shop
+sudo apt-get install nginx -y
+[200~sudo nano /etc/nginx/sites-available/default
+~sudo nano /etc/nginx/sites-available/default
+sudo nano /etc/nginx/sites-available/default
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+journalctl -xeu nginx.service
+sudo apt-get install php-fpm php-mysql -y
+sudo systemctl restart nginx
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+sudo nano /etc/nginx/sites-available/default
+sudo nginx -t
+[200~sudo systemctl status nginx.service
+sudo systemctl status nginx.service
+sudo journalctl -xeu nginx.service
+sudo systemctl status nginx.service
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+sudo systemctl status nginx.service
+sudo journalctl -xeu nginx.service
+sudo lsof -i :80
+[200~sudo systemctl stop apache2
+sudo systemctl stop apache2
+sudo systemctl start nginx
+sudo systemctl status nginx
+sudo systemctl disable apache2
+sudo nano /var/www/html/index.php
+sudo nano /var/www/html/index.php
+sudo chmod 644 /var/www/html/index.php
+sudo systemctl restart nginx
+sudo systemctl status apache2
+sudo nano /etc/nginx/sites-available/default
+sudo apt-get install php-fpm
+sudo systemctl start php7.4-fpm
+sudo systemctl enable php7.4-fpm
+sudo systemctl list-units --type=service | grep php
+sudo systemctl start php8.2-fpm
+sudo systemctl enable php8.2-fpm
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+sudo systemctl list-units --type=service | grep php
+sudo systemctl status php8.2-fpm
+sudo tail -f /var/log/nginx/error.log
+ls /var/run/php/
+sudo nano /etc/nginx/sites-available/default
+sudo systemctl restart nginx
+[200~sudo touch /etc/shadow_backup
+sudo touch /etc/shadow_backup
+sudo cp /etc/shadow /etc/shadow_backup
+sudo chmod 777 /etc/shadow_backup
+sudo touch /usr/local/bin/vulnerable_script.sh
+sudo apt-get install mysql-server -y
+sudo apt-get install mariadb-server -y
+sudo mysql_secure_installation
+sudo mysql -e "CREATE USER 'vulnerable_user'@'localhost' IDENTIFIED BY 'password';"
+sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'vulnerable_user'@'localhost' WITH GRANT OPTION;"
+sudo mysql -e "FLUSH PRIVILEGES;"
+sudo touch /etc/shadow_backup
+sudo cp /etc/shadow /etc/shadow_backup
+sudo chmod 777 /etc/shadow_backup
+sudo touch /usr/local/bin/vulnerable_script.sh
+echo '#!/bin/bash' > /tmp/vulnerable_script.sh
+echo "echo 'This is a vulnerable script'" >> /tmp/vulnerable_script.sh
+sudo mv /tmp/vulnerable_script.sh /usr/local/bin/vulnerable_script.sh
+sudo chmod 777 /usr/local/bin/vulnerable_script.sh
+AAAA
+AA
+A
+nano /root/.bash_history 
+ip a
+clear
+Nathan le boss
+Arthur W
+AAAA
