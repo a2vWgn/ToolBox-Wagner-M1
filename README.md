@@ -99,7 +99,8 @@ python main.py
 <p align="center">
 <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" alt="Interface" />
 </p>
-
+<br>
+<br>
 - Nous pouvons utiliser l'interface graphique :
 ```sh
 python app2.py
