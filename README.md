@@ -58,7 +58,7 @@
 <br>
 <br>
 <br>
-##
+
 <B>1. Initialisation et arguments :</B> Le fichier main.py initialise le processus en fonction des arguments fournis et permet l'exécution des différentes fonctionnalités via une interface en ligne de commande. Le fichier app2.py, quant à lui, offre une interface graphique intuitive pour accéder aux mêmes fonctionnalités de manière plus conviviale.
 
 <B>2. Configuration :</B> main.py lit les paramètres de scanpy.conf en utilisant parser.py.
