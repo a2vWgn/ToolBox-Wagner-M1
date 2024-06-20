@@ -101,10 +101,15 @@ python main.py
 </p>
 <br>
 <br>
+
 - Nous pouvons utiliser l'interface graphique :
 ```sh
 python app2.py
 ```
+<p align="center">
+<img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/app.png?raw=true" alt="App" />
+  </p>
+  
 <br>
 Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
 
