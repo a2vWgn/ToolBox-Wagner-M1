@@ -3,7 +3,7 @@
 <br>
 <br>
 
-> ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnelle.
+> ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnelle. Possibilité d'installation sur UNIX/Linux et Windows
 <br>
 <br>
 
@@ -14,13 +14,13 @@
 
 - <B>Détection de vulnérabilités :</B> Identification des failles de sécurité pour anticiper et corriger les potentielles failles dans le système.
 
-- <B>Tentative de connexion SSH :</B> Utilisation de la liste d’ID/mot de passe rockyou pour effectuer des attaques par force brute sur les connexions SSH.
+- <B> Attaque par BruteForce SSH :</B> Utilisation de la liste d’ID/mot de passe rockyou pour effectuer des attaques par force brute sur les connexions SSH.
 
 - <B>Surveillance de commandes sur des machines distantes:</B> Permet d'avoir une visibilité sur toutes les commandes effectuées sur des machines distantes afin de s'assurer qu'aucune activité malveillante est en cours.
 
-- <B>Attaque DDoS :</B> Simule des attaques DDoS pour tester la résistance de votre réseau contre des surcharges massives de trafic.
+- <B>Attaque DDoS :</B> Simule des attaques DDoS pour tester la résistance de votre réseau contre des surcharges massives de trafic. Deux types d'attaques : Flood et No-Flood
 
-- <B>Génération de rapport :</B> Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion des vulnérabilités mais également la création de rapports .PDF pour chaque fonctionnalité.
+- <B>Génération de rapport :</B> Création de rapports détaillés sur les vulnérabilités détectées grâce à Nessus, un outil de gestion des vulnérabilités mais également la création de rapports .PDF pour chaque fonctionnalité (sauf DDoS et BruteForce).
 
 <br>
 
@@ -43,7 +43,7 @@
 
 - <B>command_monitor.py :</B> Surveille et enregistre en temps réel toutes les commandes exécutées sur une machine cible via SSH.
 
-- <B>ddos_attack.py :</B> Simule des attaques DDoS pour tester la résistance de votre réseau contre des surcharges massives de trafic.
+- <B>ddos_attack.py :</B> Simule des attaques DDoS pour tester la résistance d'un réseau contre des surcharges massives de trafic.
 
 - <B>network_scan.py :</B> Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
 
