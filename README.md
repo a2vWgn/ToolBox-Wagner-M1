@@ -28,7 +28,7 @@
 
 - <B>main.py :</B> Point d'entrée qui lit la configuration, définit les arguments et lance les scans de ports, vulnérabilités, attaques SSH, et autres fonctionnalités comme le scan réseau local et l'attaque DDoS.
 
-- <B>app2.py :</B Point d'entrée pour l'interface graphique. Il utilise la bibliothèque <b>customtkinter</b> pour fournir une interface utilisateur permettant de sélectionner et d'exécuter différentes fonctionnalités comme les scans de ports, les scans de vulnérabilités, les attaques brute force SSH, la surveillance des commandes, les scans de réseau local et les attaques DDoS.
+- <B>app2.py :</B> Point d'entrée pour l'interface graphique. Il utilise la bibliothèque <b>customtkinter</b> pour fournir une interface utilisateur permettant de sélectionner et d'exécuter différentes fonctionnalités comme les scans de ports, les scans de vulnérabilités, les attaques brute force SSH, la surveillance des commandes, les scans de réseau local et les attaques DDoS.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Les résultats sont affichés directement dans l'interface graphique et peuvent peuvent être directement affiché et exporté en fichiers PDF.
 
 - <b>scanpy.conf :</b> Fichier de configuration contenant les paramètres par défaut pour les scans de ports et de vulnérabilités. <br>
