@@ -28,10 +28,9 @@
 
 - <B>main.py :</B> Point d'entrée qui lit la configuration, définit les arguments et lance les scans de ports, vulnérabilités, attaques SSH, et autres fonctionnalités comme le scan réseau local et l'attaque DDoS.
 
-- <B>app2.py :</B> Point d'entrée pour l'interface graphique. Il utilise la bibliothèque <b>customtkinter</b> pour fournir une interface utilisateur permettant de sélectionner et d'exécuter différentes fonctionnalités comme les scans de ports, les scans de vulnérabilités, les attaques brute force SSH, la surveillance des commandes, les scans de réseau local et les attaques DDoS. Les résultats sont affichés directement dans l'interface graphique et peuvent peuvent être directement affiché et exporté en fichiers PDF.
+- <B>app2.py :</B> Point d'entrée pour l'interface graphique. Il utilise la bibliothèque <b>customtkinter</b> pour fournir une interface utilisateur permettant de sélectionner et d'exécuter différentes fonctionnalités comme les scans de ports, les scans de vulnérabilités, les attaques brute force SSH, la surveillance des commandes, les scans de réseau local et les attaques DDoS. Les résultats sont affichés directement dans l'interface graphique et peuvent peuvent être directement affiché et exporté en fichiers PDF 😊
 
-- <b>scanpy.conf :</b> Fichier de configuration contenant les paramètres par défaut pour les scans de ports et de vulnérabilités. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ici les ID/MDP pour accéder à la console Nessus Web sont vierges. On peut donc choisir les identifiants à notre convenance
+- <b>scanpy.conf :</b> Fichier de configuration contenant les paramètres par défaut pour les scans de ports et de vulnérabilités. Possibilité de modifier les ID/mdp pour accéder à la console Nessus Web.
 
 - <B>scan.py :</B> Gère les interactions avec l'API Nessus pour initialiser, lancer, mettre en pause, reprendre, arrêter les scans et exporter les résultats.
 
@@ -39,23 +38,23 @@
 
 - <B>nessus_api.py :</B>  Gère l'authentification et les interactions avec l'API Nessus, y compris la création, le lancement et l'exportation des résultats des scans via des requêtes web.
 
-- <B>parser.py :</B> Interface simplifiée autour de configparser pour lire les valeurs des paramètres du fichier de configuration.
+- <B>parser.py :</B> Interface simplifiée autour de configparser pour lire les valeurs des paramètres du fichier de configuration. Il permet de gérer facilement les paramètres de configuration utilisés dans les autres scripts.
 
 - <B>ssh.py :</B> Effectue des attaques par force brute SSH en utilisant paramiko et la liste de mots de passe rockyou.txt.
 
-- <B>command_monitor.py :</B> Surveille et enregistre en temps réel toutes les commandes exécutées sur une machine cible via SSH.
+- <B>command_monitor.py :</B> Permet la surveillance des commandes exécutées sur une machine distante via SSH. Les commandes sont enregistrées dans un fichier local pour analyse ultérieure.
 
-- <B>ddos_attack.py :</B> Simule des attaques DDoS pour tester la résistance d'un réseau contre des surcharges massives de trafic.
+- <B>ddos_attack.py :</B> Simule des attaques DDoS pour tester la résistance d'un réseau contre des surcharges massives de trafic. Permet de choisir entre le mode flood et non-flood
 
-- <B>network_scan.py :</B> Permet de cartographier le réseau en identifiant les hôtes actifs et les services disponibles sur ces derniers.
+- <B>network_scan.py :</B> Permet de cartographier le réseau localement en identifiant les hôtes actifs (Adresses IP et MAC) et les services disponibles sur ces derniers. Les résultats sont exportés en fichiers PDF
 
 - <B>requirement.txt :</B> Liste des outils à installer au préalable pour faire marcher la ToolBox.
 
-- <B>template :</B> Template du rapport de scan pdf.
+- <B>template :</B> Contient les templates HTML utilisés pour générer les rapports PDF pour les différentes fonctionnalités de scan et de surveillance.
 
 - <B>.gitignore :</B> Fichier temporaire (on s'en fiche).
 
-- <B>github/workflow :</B> Analyse statique et stylistique (avoir un code clair et lisible) des codes avec pylint, flake8, black, isort, et mypy.
+- <B>github/workflow :</B> Contient les configurations pour les analyses statiques et stylistiques (pylint, flake8, black, isort, mypy) pour s'assurer que le code est clair et lisible.
 
 <br>
 <br>
