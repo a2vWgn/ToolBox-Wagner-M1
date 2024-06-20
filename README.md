@@ -102,8 +102,8 @@ Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous so
 <br>
 <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" alt="Interface" />
 ```
-
+<center>
 <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" alt="Interface" />
-
+</center>
 
 
