@@ -84,6 +84,7 @@ Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les inst
 ```sh
 python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
+```
 <br>
 📋 Comment ça marche ?
 Une fois l'entité du projet installée, il faudra se rendre dans le répertoire en question. Une fois dedans :
