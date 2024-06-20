@@ -86,22 +86,23 @@ python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
 ```
 <br>
-📋 Comment ça marche ?
+
+## 📋 Comment ça marche ?
+
 Une fois l'entité du projet installée, il faudra se rendre dans le répertoire en question. Une fois dedans :
 
-Nous pouvons utiliser l'interface en ligne de commande :
-sh
-Copier le code
+- Nous pouvons utiliser l'interface en ligne de commande :
+```sh
 python main.py
-Nous pouvons utiliser l'interface graphique :
-sh
-Copier le code
+```
+- Nous pouvons utiliser l'interface graphique :
+```sh
 python app2.py
+```
 <br>
 Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
 <br>
 <br>
-```
 <p align="center">
 <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/interface.PNG?raw=true" alt="Interface" />
 </p>
