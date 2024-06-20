@@ -111,6 +111,7 @@ python app2.py
   </p>
   
 <br>
+<p align="center">
 Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
-
+</p>
 
