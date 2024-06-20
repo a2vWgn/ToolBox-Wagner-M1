@@ -1,7 +1,5 @@
 <h1 align="center">🛡️ ToolBox ScanPy</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
-</p>
+
 
 > ScanPy est une Toolbox pour identifier les failles de sécurité dans les réseaux informatiques. J'ai essayé de faire en sorte d'avoir une ToolBox plutôt complète afin d'avoir une certaine crédibilité professionnelle.
 
