@@ -125,6 +125,20 @@ python app2.py
   </p>
   
 <br>
+
+## 📝 Rapports 
+
+Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rapport Interfaces
+<br>
+- Rapport NESSUS : Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général<\B> et le <B>Rapport de Vulnérabilités Détaillé</B>
+
+<p align="center">
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/1.PNG" alt="Image 1" width="200"/>
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/Rapport%20Global.PNG" alt="Image 2" width="200"/>
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportD%C3%A9taill%C3%A9.PNG" alt="Image 3" width="200"/>
+</p>
+
+
 <p align="center">
 Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
 </p>
