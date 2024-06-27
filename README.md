@@ -170,7 +170,7 @@ A l'avenir, je souhaiterais pouvoir effectuer quelque amélioration :<br>
 - <b>Implémentation et amélioration des fonctionnalités existantes :</b>Je compte également mettre en place et améliorer certaines fonctionnalités comme par exemple ajouter une fonctionnalités d'alertes par mails pour l'utilisation de commandes malveillantes dans la fonctionnalités existante de surveillance de commandes. L'ajout de fonctionnalités plus poussées de PENTEST serait un atout majour pour ma toolbox.
 <br>
 <br>
-Aujourd'hui je suis assez content de ce projet, et de ce qu'il m'a permis d'apprendre d'un point de vue technique et organisationnel. Je compte essayer de le pousser un peu car ce projet reste extremement formateur sur beaucoup de points de vue, et pourquoi pas un jour essayer de le mettre sur le marché français. <b></b>(Nathan je pense que c'est le moment de sortir la CB pour investir un bon billet !)</b>
+Aujourd'hui je suis assez content de ce projet, et de ce qu'il m'a permis d'apprendre d'un point de vue technique et organisationnel. Je compte essayer de le pousser un peu car ce projet reste extremement formateur sur beaucoup de points de vue, et pourquoi pas un jour essayer de le mettre sur le marché français. <b>(Nathan je pense que c'est le moment de sortir la CB pour investir un bon billet !)</b>
 
 
 
