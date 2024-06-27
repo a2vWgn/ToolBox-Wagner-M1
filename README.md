@@ -130,7 +130,11 @@ python app2.py
 
 Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rapport Interfaces
 <br>
-- Rapport NESSUS : Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général<\B> et le <B>Rapport de Vulnérabilités Détaillé</B>
+- <B>Rapport NESSUS :<\B> Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général</B> et le <B>Rapport de Vulnérabilités Détaillé</B><br>
+<br>
+<p align="center">
+Cliquer sur chaque image afin de les agrandir :)
+</p>
 
 <p align="center">
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/1.PNG" alt="Image 1" width="200"/>
