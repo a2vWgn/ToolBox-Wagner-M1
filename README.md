@@ -84,15 +84,15 @@
 
 Certains outils sont nécessaires pour mettre en place la ToolBox. Pour les installer, exécutez les commandes suivantes qui permettent de télécharger tout le nécessaire (requirements.txt) plus simplement :
 
-<B>Sur Linux :</B
+<B>Sur Linux :</B>
 ```sh
 python -m pip install -r requirements.txt
 sudo apt install wkhtmltopdf -y
 ```
 <br>
  <B>Sur Windows :</B><br />
- Installer Python 3 : https://www.python.org/downloads/ puis l'ajouter à votre variable d'environnement PATH<br />
- Installer wkhtmltoppdf : https://wkhtmltopdf.org/ puis l'ajouter à votre variable d'environnement PATH<br />
+ Installer Python 3 : https://www.python.org/downloads/ puis l'ajouter à votre variable d'environnement PATH<br>
+ Installer wkhtmltoppdf : https://wkhtmltopdf.org/ puis l'ajouter à votre variable d'environnement PATH<br>
  <br>
  Maintenant en PowerShell, installer le fichier requierement.txt : 
  ```sh
