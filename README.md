@@ -94,7 +94,7 @@ sudo apt install wkhtmltopdf -y
  Installer Python 3 : https://www.python.org/downloads/ puis l'ajouter à votre variable d'environnement PATH<br>
  Installer wkhtmltoppdf : https://wkhtmltopdf.org/ puis l'ajouter à votre variable d'environnement PATH<br>
  <br>
- Maintenant en PowerShell, installer le fichier requierement.txt : 
+ Maintenant en PowerShell, installer le fichier requierement.txt : <br>
 ```sh
 python -m pip install -r requirements.txt
 ```
