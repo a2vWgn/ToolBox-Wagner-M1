@@ -142,6 +142,7 @@ Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rap
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportD%C3%A9taill%C3%A9.PNG" alt="Image 3" width="200"/>
 </p>
 <br>
+
 - <B>Rapport Interface :</B> Les rapport d'interface sont les rapports générés depuis notre application (et notre CLI pour ceux qui l'utilisent), permettent d'afficher les rapport de fonctionnalité via un fichier template permettant d'avoir un visuel assez sympa. De plus, il sufira de cliquer sur le lien du rapport en bleu afin de l'ouvrir directement ! Ces rapports seront stocké précisement dans le dossier results/fonctionnalités_utilisés. Ils seront classifiés très précisement dans des sous dossier de dates et heure d'exécution ! </B><br>
 <br>
 <p align="center">
