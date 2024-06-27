@@ -128,12 +128,12 @@ python app2.py
 
 ## 📝 Rapports 
 
-Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rapport Interfaces
+Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rapport Interface
 <br>
-- <B>Rapport NESSUS :<\B> Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général</B> et le <B>Rapport de Vulnérabilités Détaillé</B><br>
+- <B>Rapport NESSUS :</B> Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général</B> et le <B>Rapport de Vulnérabilités Détaillé</B><br>
 <br>
 <p align="center">
-Cliquer sur chaque image afin de les agrandir :)
+<b>Cliquer sur chaque image afin de les agrandir :)</b>
 </p>
 
 <p align="center">
@@ -141,8 +141,18 @@ Cliquer sur chaque image afin de les agrandir :)
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/Rapport%20Global.PNG" alt="Image 2" width="200"/>
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportD%C3%A9taill%C3%A9.PNG" alt="Image 3" width="200"/>
 </p>
+<br>
+- <B>Rapport Interface :</B> Les rapport d'interface sont les rapports générés depuis notre application (et notre CLI pour ceux qui l'utilisent), permettent d'afficher les rapport de fonctionnalité via un fichier template permettant d'avoir un visuel assez sympa. De plus, il sufira de cliquer sur le lien du rapport en bleu afin de l'ouvrir directement ! Ces rapports seront stocké précisement dans le dossier results/fonctionnalités_utilisés. Ils seront classifiés très précisement dans des sous dossier de dates et heure d'exécution ! </B><br>
+<br>
+<p align="center">
+<b>Cliquer sur chaque image afin de les agrandir :)</b>
+</p>
 
-
+<p align="center">
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/CheminRapports.PNG alt="Image 1" width="200"/>
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportInterface.PNG" alt="Image 2" width="200"/>
+</p>
+<br>
 <p align="center">
 Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
 </p>
