@@ -130,6 +130,8 @@ python app2.py
 
 Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rapport Interface
 <br>
+<br>
+<br>
 - <B>Rapport NESSUS :</B> Au sein de Nessus, une fois que les scans de vulnérabilités sont terminés, nous avons la possibilités de pouvoir observer le rapport directement le rapport via l'interface de Nessus, mais aussi de l'exporter en PDF. Il existe différents types de rapports, les deux primordiales sont le <B>Rapport Général</B> et le <B>Rapport de Vulnérabilités Détaillé</B><br>
 <br>
 <p align="center">
@@ -141,6 +143,7 @@ Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rap
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/Rapport%20Global.PNG" alt="Image 2" width="200"/>
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportD%C3%A9taill%C3%A9.PNG" alt="Image 3" width="200"/>
 </p>
+<br>
 <br>
 
 - <B>Rapport Interface :</B> Les rapport d'interface sont les rapports générés depuis notre application (et notre CLI pour ceux qui l'utilisent), permettent d'afficher les rapport de fonctionnalité via un fichier template permettant d'avoir un visuel assez sympa. De plus, il sufira de cliquer sur le lien du rapport en bleu afin de l'ouvrir directement ! Ces rapports seront stocké précisement dans le dossier results/fonctionnalités_utilisés. Ils seront classifiés très précisement dans des sous dossier de dates et heure d'exécution ! </B><br>
@@ -154,7 +157,17 @@ Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rap
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportInterface.PNG" alt="Image 2" width="200"/>
 </p>
 <br>
-<p align="center">
-Maintenant, nous n'avons plus qu'à sélectionner la fonctionnalité que nous souhaitons exécuter !
-</p>
+<br>
+
+## ⏳ L'avenir de ce projet 
+<br>
+A l'avenir, je souhaiterais pouvoir effectuer quelque amélioration :<br>
+- <b>Amélioration de l'interface graphique :</b> Dans un premier temps, je souhaiterais rendre l'interface plus conviviale pour les utilisateurs. Cela serait beaucoup plus agréable mais serait égalementun gros plus d'un point de vue commercial <br>
+- <b>Mise en place d'un executable de déploiement :/b>Je compte mettre également en place ce projet sous forme de fichier .exe, afin de pouvoir le déployer plus simplement dans des environnement de travail. Cela serait un gains de temps considérables pour les responsables de déploiement.<br>
+- <b>Implémentation et amélioration des fonctionnalités existantes :</b>Je compte également mettre en place et améliorer certaines fonctionnalités comme par exemple ajouter une fonctionnalités d'alertes par mails pour l'utilisation de commandes malveillantes dans la fonctionnalités existante de surveillance de commandes. L'ajout de fonctionnalités plus poussées de PENTEST serait un atout majour pour ma toolbox.
+<br>
+<br>
+Aujourd'hui je suis assez content de ce projet, et de ce qu'il m'a permis d'apprendre d'un point de vue technique et organisationnel. Je compte essayer de le pousser un peu car ce projet reste extremement formateur sur beaucoup de points de vue, et pourquoi pas un jour essayer de le mettre sur le marché français. (Nathan je pense que c'est le moment de sortir la CB pour investir un bon billet !)
+
+
 
