@@ -149,7 +149,7 @@ Au sein de mon projet, nous avons deux types de rapports : Rapport Nessus et Rap
 </p>
 
 <p align="center">
-  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/CheminRapports.PNG alt="Image 1" width="200"/>
+  <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/CheminRapports.PNG" alt="Image 1" width="200"/>
   <img src="https://github.com/a2vWgn/ToolBox-Wagner-M1/blob/master/template/RapportInterface.PNG" alt="Image 2" width="200"/>
 </p>
 <br>
