@@ -98,7 +98,6 @@ sudo apt install wkhtmltopdf -y
 ```sh
 python -m pip install -r requirements.txt
 ```
- <br>
  
 ## 📋 Comment ça marche ?
 
